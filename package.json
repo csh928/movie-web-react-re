@@ -9,6 +9,7 @@
     "axios": "^0.20.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
@@ -16,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"gh-pages -d build",
-    "predeploy":"npm run build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +35,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage" :"http://csh928.github.io/movie-web-react"
+  "homepage": "https://csh928.github.io/movie-web-react-re/"
 }

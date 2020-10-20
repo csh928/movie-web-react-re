@@ -21,14 +21,13 @@ class Home extends React.Component {
   componentDidMount() {
     this.getMovies();
   }
-
   render() {
     const { isLoading, movies } = this.state;
     return (
       <section className="container">
         {isLoading ? (
           <div className="loader">
-            <span className="loader_text">Loading...</span>
+            <span className="loader__text">Loading...</span>
           </div>
         ) : (
           <div className="movies">
